@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+}
+input:hover{
+    background-color: rgb(251, 247, 247);
+}
+form{
+    margin-bottom: 50px;
+}
+button{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 80px;
+    background-color: aquamarine;
+    margin-left: 5px;
+}
+button:hover{
+    background-color:rgb(76, 253, 194);
+}
+.output{
+    background-color: rgb(221, 251, 251);
+}

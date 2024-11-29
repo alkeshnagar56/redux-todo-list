@@ -36,6 +36,7 @@ const handleSave = () => {
               </>
             ) : (
               <>
+              <div className="output">
                 <h2>{item.text}</h2>
 
                 <button onClick={()=>handleUpdate(item.id, item.text)}>
@@ -44,6 +45,7 @@ const handleSave = () => {
                 <button onClick={() => Dispatch(removeTodo(item.id))}>
                   remove
                 </button>
+                </div>
               </>
             )}
           </li>
