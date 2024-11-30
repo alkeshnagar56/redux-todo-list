@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import Inputcompo from './Redux_File/inputcompo'
-import Outputcompo from './Redux_File/outputcompo'
+import Inputcompo from './Redux_File/Inputcompo'
+import Outputcompo from './Redux_File/Outputcompo'
 const App = () => {
   return (
     <>
